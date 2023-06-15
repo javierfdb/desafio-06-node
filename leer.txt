@@ -1,0 +1,19 @@
+Hola Profesor, gusto en saludar
+
+- Realicé dos modificaciones en el proyecto React para poder interactuar con el back:
+
+    1. Modificación de archivo 'Login.jsx', específicamente cambié la parte en que 
+    obtenia el Token (líneas 24 & 25) ya que estaba obteniendo un jwt con error la consola
+    me decia 'jwt malformed' eso se traducía en que no se podía agregar el token al local storage
+    entonces ne podría avanzar con el proceso de Login.
+
+    2. En el archivo 'Perfil.jsx' pasaba que no me mostraba en el formt los datos del usuario logeado, ya que 
+    el state de usuario siempre partía vacío, mi solución fue crear states independientes para cada dato del 
+    usuario. 
+
+- De todas formas le comparto acá y en el archivo readme.md el link al repositorio de ese proyecto 
+react modificado. --> https://github.com/javierfdb/material-apoyo
+
+- Se comparten variables de entorno.
+
+Saludos profesor.
